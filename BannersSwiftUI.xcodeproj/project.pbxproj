@@ -16,6 +16,7 @@
 		8CF7C7BD23931B8F00DC314B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF7C7BB23931B8F00DC314B /* LaunchScreen.storyboard */; };
 		8CF7C7C823931B8F00DC314B /* BannersSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7C7C723931B8F00DC314B /* BannersSwiftUITests.swift */; };
 		8CF7C7D323931B8F00DC314B /* BannersSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7C7D223931B8F00DC314B /* BannersSwiftUIUITests.swift */; };
+		8CF7C7E123931B9C00DC314B /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7C7E023931B9C00DC314B /* Banner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8CF7C7CE23931B8F00DC314B /* BannersSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BannersSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF7C7D223931B8F00DC314B /* BannersSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannersSwiftUIUITests.swift; sourceTree = "<group>"; };
 		8CF7C7D423931B8F00DC314B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF7C7E023931B9C00DC314B /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				8CF7C7BE23931B8F00DC314B /* Info.plist */,
 				8CF7C7B123931B8E00DC314B /* BannersSwiftUI.xcdatamodeld */,
 				8CF7C7B823931B8F00DC314B /* Preview Content */,
+				8CF7C7E023931B9C00DC314B /* Banner.swift */,
 			);
 			path = BannersSwiftUI;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			files = (
 				8CF7C7B323931B8E00DC314B /* BannersSwiftUI.xcdatamodeld in Sources */,
 				8CF7C7AE23931B8E00DC314B /* AppDelegate.swift in Sources */,
+				8CF7C7E123931B9C00DC314B /* Banner.swift in Sources */,
 				8CF7C7B523931B8E00DC314B /* ContentView.swift in Sources */,
 				8CF7C7B023931B8E00DC314B /* SceneDelegate.swift in Sources */,
 			);
