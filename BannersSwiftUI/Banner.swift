@@ -42,6 +42,7 @@ struct BannerModifier: ViewModifier {
     
     func body(content: Content) -> some View {
         ZStack {
+            content
             if show {
                 VStack {
                     HStack {
@@ -74,7 +75,6 @@ struct BannerModifier: ViewModifier {
                     }
                 })
             }
-            content
         }
     }
 
